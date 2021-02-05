@@ -34,6 +34,7 @@
             this.mouvementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.virementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +62,8 @@
             // 
             // compteToolStripMenuItem
             // 
+            this.compteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultationToolStripMenuItem1});
             this.compteToolStripMenuItem.Name = "compteToolStripMenuItem";
             this.compteToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.compteToolStripMenuItem.Text = "Compte";
@@ -83,6 +86,13 @@
             this.consultationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultationToolStripMenuItem.Text = "Consultation";
             this.consultationToolStripMenuItem.Click += new System.EventHandler(this.consultationToolStripMenuItem_Click);
+            // 
+            // consultationToolStripMenuItem1
+            // 
+            this.consultationToolStripMenuItem1.Name = "consultationToolStripMenuItem1";
+            this.consultationToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.consultationToolStripMenuItem1.Text = "Consultation";
+            this.consultationToolStripMenuItem1.Click += new System.EventHandler(this.consultationToolStripMenuItem1_Click);
             // 
             // Home
             // 
@@ -109,6 +119,7 @@
         private System.Windows.Forms.ToolStripMenuItem mouvementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem virementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultationToolStripMenuItem1;
     }
 }
 

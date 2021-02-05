@@ -33,5 +33,10 @@ namespace AT12_banque
         {
             Changer_Form(new consultationClients());
         }
+
+        private void consultationToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new consultationComptes());
+        }
     }
 }
