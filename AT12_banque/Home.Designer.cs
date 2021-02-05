@@ -35,6 +35,8 @@
             this.virementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajoutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +56,8 @@
             // clientToolStripMenuItem
             // 
             this.clientToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.consultationToolStripMenuItem});
+            this.consultationToolStripMenuItem,
+            this.ajoutToolStripMenuItem});
             this.clientToolStripMenuItem.Name = "clientToolStripMenuItem";
             this.clientToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.clientToolStripMenuItem.Text = "Client";
@@ -63,7 +66,8 @@
             // compteToolStripMenuItem
             // 
             this.compteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.consultationToolStripMenuItem1});
+            this.consultationToolStripMenuItem1,
+            this.ajoutToolStripMenuItem1});
             this.compteToolStripMenuItem.Name = "compteToolStripMenuItem";
             this.compteToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.compteToolStripMenuItem.Text = "Compte";
@@ -94,6 +98,20 @@
             this.consultationToolStripMenuItem1.Text = "Consultation";
             this.consultationToolStripMenuItem1.Click += new System.EventHandler(this.consultationToolStripMenuItem1_Click);
             // 
+            // ajoutToolStripMenuItem
+            // 
+            this.ajoutToolStripMenuItem.Name = "ajoutToolStripMenuItem";
+            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ajoutToolStripMenuItem.Text = "Ajout";
+            this.ajoutToolStripMenuItem.Click += new System.EventHandler(this.ajoutToolStripMenuItem_Click);
+            // 
+            // ajoutToolStripMenuItem1
+            // 
+            this.ajoutToolStripMenuItem1.Name = "ajoutToolStripMenuItem1";
+            this.ajoutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ajoutToolStripMenuItem1.Text = "Ajout";
+            this.ajoutToolStripMenuItem1.Click += new System.EventHandler(this.ajoutToolStripMenuItem1_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -120,6 +138,8 @@
         private System.Windows.Forms.ToolStripMenuItem virementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultationToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ajoutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajoutToolStripMenuItem1;
     }
 }
 

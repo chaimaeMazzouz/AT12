@@ -38,5 +38,15 @@ namespace AT12_banque
         {
             Changer_Form(new consultationComptes());
         }
+
+        private void ajoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new ajoutClient());
+        }
+
+        private void ajoutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new ajoutCompte());
+        }
     }
 }
