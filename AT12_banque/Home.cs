@@ -68,5 +68,15 @@ namespace AT12_banque
         {
             Changer_Form(new modificationCompte());
         }
+
+        private void rechercheToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new recherche_client__comptes());
+        }
+
+        private void rechercheToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new recherche_compte__clients());
+        }
     }
 }

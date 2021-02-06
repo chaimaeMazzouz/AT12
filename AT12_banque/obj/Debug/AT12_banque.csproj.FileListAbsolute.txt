@@ -21,3 +21,5 @@ C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT12 PDF M09_1\Mazzouz_TDI20
 C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT12 PDF M09_1\Mazzouz_TDI203A_AT12\AT12_banque\AT12_banque\obj\Debug\AT12_banque.SuppressionCompte.resources
 C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT12 PDF M09_1\Mazzouz_TDI203A_AT12\AT12_banque\AT12_banque\obj\Debug\AT12_banque.modificationClient.resources
 C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT12 PDF M09_1\Mazzouz_TDI203A_AT12\AT12_banque\AT12_banque\obj\Debug\AT12_banque.modificationCompte.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT12 PDF M09_1\Mazzouz_TDI203A_AT12\AT12_banque\AT12_banque\obj\Debug\AT12_banque.recherche_client__comptes.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT12 PDF M09_1\Mazzouz_TDI203A_AT12\AT12_banque\AT12_banque\obj\Debug\AT12_banque.recherche_compte__clients.resources
