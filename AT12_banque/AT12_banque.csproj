@@ -109,6 +109,18 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="modificationClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificationClient.Designer.cs">
+      <DependentUpon>modificationClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificationCompte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificationCompte.Designer.cs">
+      <DependentUpon>modificationCompte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mouvement.cs">
       <DependentUpon>Banque.tt</DependentUpon>
     </Compile>
@@ -143,6 +155,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificationClient.resx">
+      <DependentUpon>modificationClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificationCompte.resx">
+      <DependentUpon>modificationCompte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
