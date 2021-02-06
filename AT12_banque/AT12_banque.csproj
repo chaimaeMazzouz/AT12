@@ -114,6 +114,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="suppressionClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suppressionClient.Designer.cs">
+      <DependentUpon>suppressionClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuppressionCompte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppressionCompte.Designer.cs">
+      <DependentUpon>SuppressionCompte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Virement.cs">
       <DependentUpon>Banque.tt</DependentUpon>
     </Compile>
@@ -141,6 +153,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="suppressionClient.resx">
+      <DependentUpon>suppressionClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppressionCompte.resx">
+      <DependentUpon>SuppressionCompte.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Banque.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Banque.Designer.cs</LastGenOutput>
@@ -149,6 +167,18 @@
       <DependentUpon>Banque.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\banqueEntities.datasource" />
+    <None Include="Properties\DataSources\Client.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.SqlAzureExecutionStrategy.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.SqlFunctions.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.SqlHierarchyIdFunctions.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.SqlProviderServices.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.SqlServerMigrationSqlGenerator.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.SqlSpatialFunctions.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.SqlSpatialServices.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.Utilities.TaskExtensions+CultureAwaiter.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.Utilities.TaskExtensions+CultureAwaiter`1.datasource" />
+    <None Include="Properties\DataSources\System.Data.Entity.SqlServer.Utilities.TaskExtensions.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

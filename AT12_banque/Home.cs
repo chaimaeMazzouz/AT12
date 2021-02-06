@@ -48,5 +48,15 @@ namespace AT12_banque
         {
             Changer_Form(new ajoutCompte());
         }
+
+        private void suppressionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new suppressionClient());
+        }
+
+        private void suppressionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new SuppressionCompte());
+        }
     }
 }
